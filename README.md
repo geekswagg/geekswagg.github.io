@@ -1,14 +1,14 @@
 # Collins Omwenga
 
-Personal portfolio & rate card — Cloud Engineer & DevOps Lead based in Nairobi, Kenya.
+Personal portfolio & rate card — Technical Consultant & Platform Engineer based in Nairobi, Kenya.
 
 **Live:** [geekswagg.github.io](https://geekswagg.github.io)
 
 ## Features
 
 - **Modern Dark Theme** — Clean, minimal design with CSS Grid
-- **Rate Card** — Cloud Consultation, Cloud Engineering, DevOps & ALM pricing
-- **Skills Showcase** — Azure, Kubernetes, DevSecOps, Identity Management, Application Architecture
+- **Rate Card** — Strategic Planning & IT Consulting, Business Consulting, Business Analytics & ALM
+- **Skills Showcase** — Cloud Transformation, Kubernetes, Cybersecurity, Application Architecture, Business Development
 - **Opportunities Section** — Consulting engagements, speaking & training, partnerships
 - **Auto-Updating Forks Feed** — Daily GitHub Action fetches recent forks with Unsplash images
 
@@ -70,9 +70,9 @@ node scripts/update-forks.js
 
 | Service | Rate |
 |---------|------|
-| Cloud Consultation | $80/hr |
-| Cloud Engineering | $100/hr |
-| DevOps & ALM | $90/hr |
+| Strategic Planning & IT Consulting | $80/hr |
+| Business Consulting & Project Management | $100/hr |
+| Business Analytics & ALM | $90/hr |
 
 ## Contact
 
