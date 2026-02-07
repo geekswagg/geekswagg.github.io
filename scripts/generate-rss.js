@@ -1,8 +1,8 @@
 const fs = require('fs');
 
-const SITE_URL = 'https://yebeai.github.io';
-const SITE_TITLE = 'Moses Yebei - Blog';
-const SITE_DESCRIPTION = 'Technical articles and project deep-dives by Moses Yebei';
+const SITE_URL = 'https://geekswagg.github.io';
+const SITE_TITLE = 'Collins Omwenga - Blog';
+const SITE_DESCRIPTION = 'Technical articles and project deep-dives by Collins Omwenga';
 
 function escapeXml(text) {
     if (!text) return '';
@@ -65,7 +65,7 @@ function generateAtomFeed(posts, lastUpdated) {
     <updated>${updated}</updated>
     <summary>${escapeXml(summary)}</summary>
     <author>
-      <name>Moses Yebei</name>
+      <name>Collins Omwenga</name>
     </author>
     ${(post.topics || []).map(t => `<category term="${escapeXml(t)}"/>`).join('\n    ')}
   </entry>`;
@@ -79,7 +79,7 @@ function generateAtomFeed(posts, lastUpdated) {
   <id>${SITE_URL}/</id>
   <updated>${new Date(lastUpdated || Date.now()).toISOString()}</updated>
   <author>
-    <name>Moses Yebei</name>
+    <name>Collins Omwenga</name>
   </author>
   <subtitle>${escapeXml(SITE_DESCRIPTION)}</subtitle>
 ${entries}
