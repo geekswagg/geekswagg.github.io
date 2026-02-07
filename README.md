@@ -1,15 +1,15 @@
-# Moses Yebei
+# Collins Omwenga
 
-Personal portfolio & rate card — AI Engineer & Data Scientist based in Nairobi, Kenya.
+Personal portfolio & rate card — Cloud Engineer & DevOps Lead based in Nairobi, Kenya.
 
-**Live:** [mosesyebei.github.io](https://mosesyebei.github.io)
+**Live:** [geekswagg.github.io](https://geekswagg.github.io)
 
 ## Features
 
 - **Modern Dark Theme** — Clean, minimal design with CSS Grid
-- **Rate Card** — Consultation, AI/ML Development, Data Science pricing
-- **Skills Showcase** — Python, ML, AI Agents, LLMs, Cloud, Full-Stack
-- **Opportunities Section** — Full-time roles, academic programs, GPU scholarships
+- **Rate Card** — Cloud Consultation, Cloud Engineering, DevOps & ALM pricing
+- **Skills Showcase** — Azure, Kubernetes, DevSecOps, Identity Management, Application Architecture
+- **Opportunities Section** — Consulting engagements, speaking & training, partnerships
 - **Auto-Updating Forks Feed** — Daily GitHub Action fetches recent forks with Unsplash images
 
 ## Tech Stack
@@ -32,7 +32,7 @@ GitHub Pages (hosting)
 │   └── workflows/
 │       └── update-forks.yml  # Daily cron job
 ├── Resume/
-│   └── MOSES_YEBEI_Resume.pdf
+│   └── COLLINS_OMWENGA_Resume.pdf
 └── assets/                 # Legacy assets (CSS, JS, images)
 ```
 
@@ -41,7 +41,7 @@ GitHub Pages (hosting)
 The site automatically updates daily with your latest forked repositories:
 
 1. **GitHub Action** runs at midnight UTC
-2. Fetches your 12 most recent forks via GitHub API
+2. Fetches your most recent forks via GitHub API
 3. Maps repo topics to relevant Unsplash images
 4. Generates `forks.json` and commits to repo
 5. Site renders cards from the JSON data
@@ -56,8 +56,8 @@ gh workflow run update-forks.yml
 
 ```bash
 # Clone
-git clone https://github.com/moses-y/mosesyebei.github.io.git
-cd mosesyebei.github.io
+git clone https://github.com/geekswagg/geekswagg.github.io.git
+cd geekswagg.github.io
 
 # Serve locally
 python -m http.server 8888
@@ -70,16 +70,16 @@ node scripts/update-forks.js
 
 | Service | Rate |
 |---------|------|
-| Consultation | $40/hr |
-| AI/ML Development | $60/hr |
-| Data Science | $50/hr |
+| Cloud Consultation | $80/hr |
+| Cloud Engineering | $100/hr |
+| DevOps & ALM | $90/hr |
 
 ## Contact
 
-- Email: mosesyebei@gmail.com
-- LinkedIn: [moses-yebei](https://linkedin.com/in/moses-yebei)
-- GitHub: [moses-y](https://github.com/moses-y)
-- Medium: [@mosesmyn](https://medium.com/@mosesmyn)
+- Email: comwenga@outlook.com
+- LinkedIn: [collinsomwenga](https://linkedin.com/in/collinsomwenga)
+- GitHub: [geekswagg](https://github.com/geekswagg)
+- Twitter: [@omwenga_c](https://twitter.com/omwenga_c)
 
 ## License
 

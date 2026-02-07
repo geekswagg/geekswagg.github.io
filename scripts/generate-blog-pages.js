@@ -16,15 +16,15 @@ function generateBlogPostHTML(post) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${post.displayName} - Moses Yebei</title>
+    <title>${post.displayName} - Collins Omwenga</title>
     <meta name="description" content="${(post.description || '').replace(/"/g, '&quot;').slice(0, 160)}">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="${post.displayName} - Moses Yebei">
+    <meta property="og:title" content="${post.displayName} - Collins Omwenga">
     <meta property="og:description" content="${(post.description || '').replace(/"/g, '&quot;').slice(0, 160)}">
     <meta property="og:image" content="${post.image}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://yebeai.github.io/blog/${post.name}.html">
+    <meta property="og:url" content="https://geekswagg.github.io/blog/${post.name}.html">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
@@ -32,7 +32,7 @@ function generateBlogPostHTML(post) {
     <meta name="twitter:description" content="${(post.description || '').replace(/"/g, '&quot;').slice(0, 160)}">
     <meta name="twitter:image" content="${post.image}">
 
-    <link rel="canonical" href="https://yebeai.github.io/blog/${post.name}.html">
+    <link rel="canonical" href="https://geekswagg.github.io/blog/${post.name}.html">
 
     <style>
         :root {
@@ -359,8 +359,8 @@ function generateBlogPostHTML(post) {
 
     <footer>
         <div class="container">
-            <p>&copy; ${new Date().getFullYear()} Moses Yebei. Built with automation and coffee.</p>
-            <p style="margin-top: 8px;"><a href="../index.html">yebeai.github.io</a></p>
+            <p>&copy; ${new Date().getFullYear()} Collins Omwenga. Built with automation and coffee.</p>
+            <p style="margin-top: 8px;"><a href="../index.html">geekswagg.github.io</a></p>
         </div>
     </footer>
 
@@ -451,8 +451,8 @@ function generateBlogIndexHTML(posts, lastUpdated) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - Moses Yebei</title>
-    <meta name="description" content="Technical articles and project deep-dives by Moses Yebei">
+    <title>Blog - Collins Omwenga</title>
+    <meta name="description" content="Technical articles and project deep-dives by Collins Omwenga">
 
     <style>
         :root {
@@ -661,8 +661,8 @@ function generateBlogIndexHTML(posts, lastUpdated) {
 
     <footer>
         <div class="container">
-            <p>&copy; ${new Date().getFullYear()} Moses Yebei</p>
-            <p style="margin-top: 8px;"><a href="../index.html">yebeai.github.io</a></p>
+            <p>&copy; ${new Date().getFullYear()} Collins Omwenga</p>
+            <p style="margin-top: 8px;"><a href="../index.html">geekswagg.github.io</a></p>
         </div>
     </footer>
 
